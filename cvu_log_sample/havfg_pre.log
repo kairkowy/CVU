@@ -1,0 +1,9 @@
+
+PRVG-5745 : CRS 구성이 발견되었습니다. 이 환경에서는 Restart 구성 검사가 적합하지 않습니다.
+
+Oracle Restart 구성에 대한 사전 확인을 실패했습니다. 
+
+수행된 CVU 작업:                   stage -pre hacfg
+날짜:                           2024. 7. 18 오전 9:31:32
+CVU 홈:                        /u01/app/19c/grid/
+사용자:                          oracle

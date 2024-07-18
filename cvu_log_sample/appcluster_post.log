@@ -1,0 +1,9 @@
+PRVG-13202 : 단계 확인은 'flex' 유형의 클러스터에 대해 지원되지 않습니다.
+확인 작업을 수행할 수 없습니다.
+
+모든 노드에서 Oracle Clusterware 애플리케이션 클러스터에 대한 사후 확인을 실패했습니다. 
+
+수행된 CVU 작업:                   stage -post appcluster
+날짜:                           2024. 7. 18 오전 9:12:54
+CVU 홈:                        /u01/app/19c/grid/
+사용자:                          oracle

@@ -1,0 +1,298 @@
+
+물리적 메모리 확인 중...실패 (PRVF-7530)
+사용 가능한 물리적 메모리 확인 중...성공
+교체 크기 확인 중...성공
+사용 가능한 공간: rac2:/usr,rac2:/var,rac2:/etc,rac2:/u01/app/19c/grid,rac2:/sbin,rac2:/tmp 확인 중...성공
+사용 가능한 공간: rac1:/usr,rac1:/var,rac1:/etc,rac1:/u01/app/19c/grid,rac1:/sbin,rac1:/tmp 확인 중...성공
+사용자 존재 여부: oracle 확인 중...
+  UID가 동일한 사용자입니다.: 54321 확인 중...성공
+사용자 존재 여부: oracle 확인 중...성공
+그룹 존재 여부: asmadmin 확인 중...성공
+그룹 존재 여부: asmdba 확인 중...실패 (PRVG-10461)
+그룹 존재 여부: oinstall 확인 중...성공
+그룹 멤버쉽: asmadmin 확인 중...실패 (PRVG-10460)
+그룹 멤버쉽: asmdba 확인 중...실패 (PRVG-10460)
+그룹 멤버쉽: oinstall(기본) 확인 중...성공
+실행 레벨 확인 중...성공
+완전 제한: 최대 열린 파일 기술자 확인 중...성공
+부분 제한: 최대 열린 파일 기술자 확인 중...성공
+완전 제한: 최대 사용자 프로세스 확인 중...성공
+부분 제한: 최대 사용자 프로세스 확인 중...성공
+부분 제한: 최대 스택 크기 확인 중...성공
+구조 확인 중...성공
+OS 커널 버전 확인 중...성공
+OS 커널 매개변수: semmsl 확인 중...성공
+OS 커널 매개변수: semmns 확인 중...성공
+OS 커널 매개변수: semopm 확인 중...성공
+OS 커널 매개변수: semmni 확인 중...성공
+OS 커널 매개변수: shmmax 확인 중...성공
+OS 커널 매개변수: shmmni 확인 중...성공
+OS 커널 매개변수: shmall 확인 중...성공
+OS 커널 매개변수: file-max 확인 중...성공
+OS 커널 매개변수: ip_local_port_range 확인 중...성공
+OS 커널 매개변수: rmem_default 확인 중...성공
+OS 커널 매개변수: rmem_max 확인 중...성공
+OS 커널 매개변수: wmem_default 확인 중...성공
+OS 커널 매개변수: wmem_max 확인 중...성공
+OS 커널 매개변수: aio-max-nr 확인 중...성공
+OS 커널 매개변수: panic_on_oops 확인 중...성공
+패키지: kmod-20-21 (x86_64) 확인 중...성공
+패키지: kmod-libs-20-21 (x86_64) 확인 중...성공
+패키지: binutils-2.23.52.0.1 확인 중...성공
+패키지: compat-libcap1-1.10 확인 중...성공
+패키지: libgcc-4.8.2 (x86_64) 확인 중...성공
+패키지: libstdc++-4.8.2 (x86_64) 확인 중...성공
+패키지: libstdc++-devel-4.8.2 (x86_64) 확인 중...성공
+패키지: sysstat-10.1.5 확인 중...성공
+패키지: ksh 확인 중...성공
+패키지: make-3.82 확인 중...성공
+패키지: glibc-2.17 (x86_64) 확인 중...성공
+패키지: glibc-devel-2.17 (x86_64) 확인 중...성공
+패키지: libaio-0.3.109 (x86_64) 확인 중...성공
+패키지: libaio-devel-0.3.109 (x86_64) 확인 중...성공
+패키지: nfs-utils-1.2.3-15 확인 중...성공
+패키지: smartmontools-6.2-4 확인 중...성공
+패키지: net-tools-2.0-0.17 확인 중...성공
+UID가 동일한 사용자입니다.: 0 확인 중...성공
+현재 그룹 ID 확인 중...성공
+루트 사용자 일관성 확인 중...성공
+패키지: cvuqdisk-1.0.10-1 확인 중...성공
+호스트 이름 확인 중...성공
+노드 접속 확인 중...
+  호스트 파일 확인 중...성공
+  최대(MTU) 크기 패킷이 서브넷을 통과하는지 검사 확인 중...성공
+  "100.0.0.0" 서브넷에 대한 서브넷 마스크 일관성 확인 중...성공
+  "10.0.0.0" 서브넷에 대한 서브넷 마스크 일관성 확인 중...성공
+노드 접속 확인 중...성공
+멀티캐스트 또는 브로드캐스트 검사 확인 중...성공
+ASMLib 설치 및 구성을 확인합니다. 확인 중...
+  '/etc/init.d/oracleasm' 확인 중...성공
+  '/dev/oracleasm' 확인 중...성공
+  '/etc/sysconfig/oracleasm' 확인 중...성공
+ASMLib 설치 및 구성을 확인합니다. 확인 중...성공
+ASM 무결성 확인 중...성공
+NTP(네트워크 시간 프로토콜) 확인 중...
+  '/etc/chrony.conf' 확인 중...성공
+NTP(네트워크 시간 프로토콜) 확인 중...실패 (PRVG-1017)
+동일한 코어 파일 이름 패턴 확인 중...성공
+사용자 마스크 확인 중...성공
+사용자가 그룹에 없습니다. "root": oracle 확인 중...성공
+시간대 일관성 확인 중...성공
+노드 사이의 시간 오프셋 확인 중...성공
+resolv.conf 무결성 확인 중...성공
+DNS/NIS 이름 서비스 확인 중...성공
+도메인 소켓 확인 중...실패 (PRVG-11750)
+/boot 마운트 확인 중...성공
+"avahi-daemon" 데몬이 구성되어 실행 중이 아닙니다. 확인 중...성공
+"proxyt" 데몬이 구성되어 실행 중이 아닙니다. 확인 중...성공
+루프백 네트워크 인터페이스 주소 확인 중...성공
+Grid Infrastructure 홈 경로: /u01/app/19c/grid 확인 중...
+  '/u01/app/19c/grid' 확인 중...실패 (PRVG-11931)
+Grid Infrastructure 홈 경로: /u01/app/19c/grid 확인 중...실패 (PRVG-11931)
+사용자 동일성 확인 중...성공
+RPM Package Manager 데이터베이스 확인 중...정보 (PRVG-11250)
+전용 상호 접속 네트워크 인터페이스의 네트워크 인터페이스 연결 상태 확인 중...성공
+/dev/shm이 임시 파일 시스템으로 마운트됨 확인 중...성공
+/var 경로에 대한 파일 시스템 마운트 옵션 확인 중...성공
+DefaultTasksMax 매개변수 확인 중...성공
+zeroconf 검사 확인 중...성공
+ASM 필터 드라이버 구성 확인 중...성공
+Systemd 로그인 관리자 IPC 매개변수 확인 중...성공
+
+모든 노드에서 클러스터 서비스 설정에 대한 사전 확인을 실패했습니다. 
+
+
+CVU 확인 요청 "stage -pre crsinst"을(를) 실행하는 동안 오류가 발생했습니다.
+
+물리적 메모리 확인 중...실패
+rac2: PRVF-7530 : "rac2" 노드에서 사용 가능한 물리적 메모리가 부족합니다. [필요한 물리적 메모리 = 8GB
+      (8388608.0KB)]
+
+rac1: PRVF-7530 : "rac1" 노드에서 사용 가능한 물리적 메모리가 부족합니다. [필요한 물리적 메모리 = 8GB
+      (8388608.0KB)]
+
+그룹 존재 여부: asmdba 확인 중...실패
+rac2: PRVG-10461 : "OSDBA" 권한에 대해 선택된 "asmdba" 그룹이 "rac2" 노드에 존재하지 않습니다.
+
+rac1: PRVG-10461 : "OSDBA" 권한에 대해 선택된 "asmdba" 그룹이 "rac1" 노드에 존재하지 않습니다.
+
+그룹 멤버쉽: asmadmin 확인 중...실패
+rac2: PRVG-10460 : 사용자 "oracle"이(가) "rac2" 노드에서 "OSASM" 권한에 대해 선택된 "asmadmin"
+      그룹에 속하지 않습니다.
+
+rac1: PRVG-10460 : 사용자 "oracle"이(가) "rac1" 노드에서 "OSASM" 권한에 대해 선택된 "asmadmin"
+      그룹에 속하지 않습니다.
+
+그룹 멤버쉽: asmdba 확인 중...실패
+rac2: PRVG-10460 : 사용자 "oracle"이(가) "rac2" 노드에서 "OSDBA" 권한에 대해 선택된 "asmdba" 그룹에
+      속하지 않습니다.
+
+rac1: PRVG-10460 : 사용자 "oracle"이(가) "rac1" 노드에서 "OSDBA" 권한에 대해 선택된 "asmdba" 그룹에
+      속하지 않습니다.
+
+NTP(네트워크 시간 프로토콜) 확인 중...실패
+rac2: PRVG-1017 : NTP 데몬 또는 서비스가 실행 중이 아닌 "rac2,rac1" 노드에 NTP 구성 파일
+      "/etc/chrony.conf"이(가) 있습니다.
+
+rac1: PRVG-1017 : NTP 데몬 또는 서비스가 실행 중이 아닌 "rac2,rac1" 노드에 NTP 구성 파일
+      "/etc/chrony.conf"이(가) 있습니다.
+
+도메인 소켓 확인 중...실패
+rac2: PRVG-11750 : "/var/tmp/.oracle/ora_gipc_GPNPD_rac2_lock" 파일이 "rac2" 노드에
+      존재합니다.
+rac2: PRVG-11750 : "/var/tmp/.oracle/ora_gipc_rac2_LOGD_lock" 파일이 "rac2" 노드에
+      존재합니다.
+rac2: PRVG-11750 : "/var/tmp/.oracle/ora_gipc_rac2_GPNPD" 파일이 "rac2" 노드에 존재합니다.
+rac2: PRVG-11750 : "/var/tmp/.oracle/ora_gipc_rac2_CRSD_lock" 파일이 "rac2" 노드에
+      존재합니다.
+rac2: PRVG-11750 : "/var/tmp/.oracle/ora_gipc_rac2_MDNSD" 파일이 "rac2" 노드에 존재합니다.
+rac2: PRVG-11750 : "/var/tmp/.oracle/ora_gipc_rac2_INIT" 파일이 "rac2" 노드에 존재합니다.
+rac2: PRVG-11750 : "/var/tmp/.oracle/ora_gipc_srac2CRFM_MIIPC_lock" 파일이 "rac2"
+      노드에 존재합니다.
+rac2: PRVG-11750 : "/var/tmp/.oracle/ora_gipc_gipcd_rac2_lock" 파일이 "rac2" 노드에
+      존재합니다.
+rac2: PRVG-11750 : "/var/tmp/.oracle/ora_gipc_agent_ag_CSSDAG_z_lock" 파일이
+      "rac2" 노드에 존재합니다.
+rac2: PRVG-11750 : "/var/tmp/.oracle/ora_gipc_rac2_EVMD" 파일이 "rac2" 노드에 존재합니다.
+rac2: PRVG-11750 : "/var/tmp/.oracle/ora_gipc_css_ctrllcl_CSSD_BCCM" 파일이 "rac2"
+      노드에 존재합니다.
+rac2: PRVG-11750 : "/var/tmp/.oracle/ora_gipc_rac2_MOND_lock" 파일이 "rac2" 노드에
+      존재합니다.
+rac2: PRVG-11750 : "/var/tmp/.oracle/ora_gipc_rac2_CTSSD" 파일이 "rac2" 노드에 존재합니다.
+rac2: PRVG-11750 : "/var/tmp/.oracle/ora_gipc_rac2_INIT_lock" 파일이 "rac2" 노드에
+      존재합니다.
+rac2: PRVG-11750 : "/var/tmp/.oracle/ora_gipc_rac2_CSSD" 파일이 "rac2" 노드에 존재합니다.
+rac2: PRVG-11750 : "/var/tmp/.oracle/ora_gipc_srac2CRFM_MIIPC" 파일이 "rac2" 노드에
+      존재합니다.
+rac2: PRVG-11750 : "/var/tmp/.oracle/ora_gipc_rac2_CRSD" 파일이 "rac2" 노드에 존재합니다.
+rac2: PRVG-11750 : "/var/tmp/.oracle/ora_gipc_css_ctrllcl_CSSD_BCCM_lock" 파일이
+      "rac2" 노드에 존재합니다.
+rac2: PRVG-11750 : "/var/tmp/.oracle/ora_gipc_rac2_CTSSD_lock" 파일이 "rac2" 노드에
+      존재합니다.
+rac2: PRVG-11750 : "/var/tmp/.oracle/ora_gipc_monitor_ag_CSSDAG_z" 파일이 "rac2"
+      노드에 존재합니다.
+rac2: PRVG-11750 : "/var/tmp/.oracle/npohasd" 파일이 "rac2" 노드에 존재합니다.
+rac2: PRVG-11750 : "/var/tmp/.oracle/ora_gipc_agent_ag_CSSDAG_z" 파일이 "rac2" 노드에
+      존재합니다.
+rac2: PRVG-11750 : "/var/tmp/.oracle/ora_gipc_scls_opct_rac2_lock" 파일이 "rac2"
+      노드에 존재합니다.
+rac2: PRVG-11750 : "/var/tmp/.oracle/mdnsd.pid" 파일이 "rac2" 노드에 존재합니다.
+rac2: PRVG-11750 : "/var/tmp/.oracle/ora_gipc_rac2_MOND" 파일이 "rac2" 노드에 존재합니다.
+rac2: PRVG-11750 : "/var/tmp/.oracle/ora_gipc_rac2_CSSD_lock" 파일이 "rac2" 노드에
+      존재합니다.
+rac2: PRVG-11750 : "/var/tmp/.oracle/ora_gipc_rac2_CHAD" 파일이 "rac2" 노드에 존재합니다.
+rac2: PRVG-11750 : "/var/tmp/.oracle/ora_gipc_srac2CRFM_SIPC_lock" 파일이 "rac2"
+      노드에 존재합니다.
+rac2: PRVG-11750 : "/var/tmp/.oracle/ora_gipc_monitor_ag_CSSDAG_z_lock" 파일이
+      "rac2" 노드에 존재합니다.
+rac2: PRVG-11750 : "/var/tmp/.oracle/ora_gipc_srac2CRFM_SIPC" 파일이 "rac2" 노드에
+      존재합니다.
+rac2: PRVG-11750 : "/var/tmp/.oracle/ora_gipc_rac2_LOGD" 파일이 "rac2" 노드에 존재합니다.
+rac2: PRVG-11750 : "/var/tmp/.oracle/ora_gipc_rac2_CHAD_lock" 파일이 "rac2" 노드에
+      존재합니다.
+rac2: PRVG-11750 : "/var/tmp/.oracle/ora_gipc_scls_opct_rac2" 파일이 "rac2" 노드에
+      존재합니다.
+rac2: PRVG-11750 : "/var/tmp/.oracle/mdnsd" 파일이 "rac2" 노드에 존재합니다.
+rac2: PRVG-11750 : "/var/tmp/.oracle/ora_gipc_srac2CRFM_CLIIPC" 파일이 "rac2" 노드에
+      존재합니다.
+rac2: PRVG-11750 : "/var/tmp/.oracle/ora_gipc_GPNPD_rac2" 파일이 "rac2" 노드에 존재합니다.
+rac2: PRVG-11750 : "/var/tmp/.oracle/npohasd2" 파일이 "rac2" 노드에 존재합니다.
+rac2: PRVG-11750 : "/var/tmp/.oracle/ora_gipc_gipcd_rac2" 파일이 "rac2" 노드에 존재합니다.
+rac2: PRVG-11750 : "/var/tmp/.oracle/ora_gipc_srac2CRFM_CLIIPC_lock" 파일이 "rac2"
+      노드에 존재합니다.
+rac2: PRVG-11750 : "/var/tmp/.oracle/ora_gipc_rac2_GIPCD_lock" 파일이 "rac2" 노드에
+      존재합니다.
+rac2: PRVG-11750 : "/var/tmp/.oracle/ora_gipc_rac2_MDNSD_lock" 파일이 "rac2" 노드에
+      존재합니다.
+rac2: PRVG-11750 : "/var/tmp/.oracle/ora_gipc_rac2_GPNPD_lock" 파일이 "rac2" 노드에
+      존재합니다.
+rac2: PRVG-11750 : "/var/tmp/.oracle/ora_gipc_rac2_GIPCD" 파일이 "rac2" 노드에 존재합니다.
+rac2: PRVG-11750 : "/var/tmp/.oracle/ora_gipc_rac2_EVMD_lock" 파일이 "rac2" 노드에
+      존재합니다.
+
+rac1: PRVG-11750 : "/var/tmp/.oracle/ora_gipc_srac1CRFM_CLIIPC_lock" 파일이 "rac1"
+      노드에 존재합니다.
+rac1: PRVG-11750 : "/var/tmp/.oracle/ora_gipc_rac1_INIT" 파일이 "rac1" 노드에 존재합니다.
+rac1: PRVG-11750 : "/var/tmp/.oracle/ora_gipc_gipcd_rac1_lock" 파일이 "rac1" 노드에
+      존재합니다.
+rac1: PRVG-11750 : "/var/tmp/.oracle/ora_gipc_rac1_GIPCD" 파일이 "rac1" 노드에 존재합니다.
+rac1: PRVG-11750 : "/var/tmp/.oracle/ora_gipc_srac1CRFM_SIPC" 파일이 "rac1" 노드에
+      존재합니다.
+rac1: PRVG-11750 : "/var/tmp/.oracle/ora_gipc_rac1_EVMD" 파일이 "rac1" 노드에 존재합니다.
+rac1: PRVG-11750 : "/var/tmp/.oracle/ora_gipc_rac1_CSSD_lock" 파일이 "rac1" 노드에
+      존재합니다.
+rac1: PRVG-11750 : "/var/tmp/.oracle/ora_gipc_rac1_CSSD" 파일이 "rac1" 노드에 존재합니다.
+rac1: PRVG-11750 : "/var/tmp/.oracle/ora_gipc_rac1_CTSSD_lock" 파일이 "rac1" 노드에
+      존재합니다.
+rac1: PRVG-11750 : "/var/tmp/.oracle/ora_gipc_rac1_CRSD" 파일이 "rac1" 노드에 존재합니다.
+rac1: PRVG-11750 : "/var/tmp/.oracle/ora_gipc_rac1_GPNPD" 파일이 "rac1" 노드에 존재합니다.
+rac1: PRVG-11750 : "/var/tmp/.oracle/ora_gipc_agent_ag_CSSDAG_z_lock" 파일이
+      "rac1" 노드에 존재합니다.
+rac1: PRVG-11750 : "/var/tmp/.oracle/ora_gipc_rac1_MDNSD" 파일이 "rac1" 노드에 존재합니다.
+rac1: PRVG-11750 : "/var/tmp/.oracle/ora_gipc_rac1_CHAD_lock" 파일이 "rac1" 노드에
+      존재합니다.
+rac1: PRVG-11750 : "/var/tmp/.oracle/ora_gipc_css_ctrllcl_CSSD_BCCM" 파일이 "rac1"
+      노드에 존재합니다.
+rac1: PRVG-11750 : "/var/tmp/.oracle/ora_gipc_scls_opct_rac1_lock" 파일이 "rac1"
+      노드에 존재합니다.
+rac1: PRVG-11750 : "/var/tmp/.oracle/ora_gipc_rac1_MOND" 파일이 "rac1" 노드에 존재합니다.
+rac1: PRVG-11750 : "/var/tmp/.oracle/ora_gipc_srac1CRFM_MIIPC_lock" 파일이 "rac1"
+      노드에 존재합니다.
+rac1: PRVG-11750 : "/var/tmp/.oracle/ora_gipc_css_ctrllcl_CSSD_BCCM_lock" 파일이
+      "rac1" 노드에 존재합니다.
+rac1: PRVG-11750 : "/var/tmp/.oracle/ora_gipc_rac1_CHAD" 파일이 "rac1" 노드에 존재합니다.
+rac1: PRVG-11750 : "/var/tmp/.oracle/ora_gipc_rac1_CTSSD" 파일이 "rac1" 노드에 존재합니다.
+rac1: PRVG-11750 : "/var/tmp/.oracle/ora_gipc_monitor_ag_CSSDAG_z" 파일이 "rac1"
+      노드에 존재합니다.
+rac1: PRVG-11750 : "/var/tmp/.oracle/npohasd" 파일이 "rac1" 노드에 존재합니다.
+rac1: PRVG-11750 : "/var/tmp/.oracle/ora_gipc_agent_ag_CSSDAG_z" 파일이 "rac1" 노드에
+      존재합니다.
+rac1: PRVG-11750 : "/var/tmp/.oracle/ora_gipc_rac1_LOGD" 파일이 "rac1" 노드에 존재합니다.
+rac1: PRVG-11750 : "/var/tmp/.oracle/mdnsd.pid" 파일이 "rac1" 노드에 존재합니다.
+rac1: PRVG-11750 : "/var/tmp/.oracle/ora_gipc_srac1CRFM_CLIIPC" 파일이 "rac1" 노드에
+      존재합니다.
+rac1: PRVG-11750 : "/var/tmp/.oracle/ora_gipc_rac1_EVMD_lock" 파일이 "rac1" 노드에
+      존재합니다.
+rac1: PRVG-11750 : "/var/tmp/.oracle/ora_gipc_monitor_ag_CSSDAG_z_lock" 파일이
+      "rac1" 노드에 존재합니다.
+rac1: PRVG-11750 : "/var/tmp/.oracle/ora_gipc_rac1_LOGD_lock" 파일이 "rac1" 노드에
+      존재합니다.
+rac1: PRVG-11750 : "/var/tmp/.oracle/ora_gipc_rac1_MDNSD_lock" 파일이 "rac1" 노드에
+      존재합니다.
+rac1: PRVG-11750 : "/var/tmp/.oracle/ora_gipc_rac1_GIPCD_lock" 파일이 "rac1" 노드에
+      존재합니다.
+rac1: PRVG-11750 : "/var/tmp/.oracle/ora_gipc_rac1_CRSD_lock" 파일이 "rac1" 노드에
+      존재합니다.
+rac1: PRVG-11750 : "/var/tmp/.oracle/ora_gipc_rac1_GPNPD_lock" 파일이 "rac1" 노드에
+      존재합니다.
+rac1: PRVG-11750 : "/var/tmp/.oracle/ora_gipc_scls_opct_rac1" 파일이 "rac1" 노드에
+      존재합니다.
+rac1: PRVG-11750 : "/var/tmp/.oracle/mdnsd" 파일이 "rac1" 노드에 존재합니다.
+rac1: PRVG-11750 : "/var/tmp/.oracle/ora_gipc_GPNPD_rac1" 파일이 "rac1" 노드에 존재합니다.
+rac1: PRVG-11750 : "/var/tmp/.oracle/ora_gipc_GPNPD_rac1_lock" 파일이 "rac1" 노드에
+      존재합니다.
+rac1: PRVG-11750 : "/var/tmp/.oracle/ora_gipc_rac1_MOND_lock" 파일이 "rac1" 노드에
+      존재합니다.
+rac1: PRVG-11750 : "/var/tmp/.oracle/ora_gipc_rac1_INIT_lock" 파일이 "rac1" 노드에
+      존재합니다.
+rac1: PRVG-11750 : "/var/tmp/.oracle/npohasd2" 파일이 "rac1" 노드에 존재합니다.
+rac1: PRVG-11750 : "/var/tmp/.oracle/ora_gipc_gipcd_rac1" 파일이 "rac1" 노드에 존재합니다.
+rac1: PRVG-11750 : "/var/tmp/.oracle/ora_gipc_srac1CRFM_MIIPC" 파일이 "rac1" 노드에
+      존재합니다.
+rac1: PRVG-11750 : "/var/tmp/.oracle/ora_gipc_srac1CRFM_SIPC_lock" 파일이 "rac1"
+      노드에 존재합니다.
+
+Grid Infrastructure 홈 경로: /u01/app/19c/grid 확인 중...실패
+  '/u01/app/19c/grid' 확인 중...실패
+  rac2: PRVG-11931 : "rac2" 노드에서 "/u01/app/19c/grid" 경로에 쓸 수 없습니다.
+
+  rac1: PRVG-11931 : "rac1" 노드에서 "/u01/app/19c/grid" 경로에 쓸 수 없습니다.
+
+RPM Package Manager 데이터베이스 확인 중...정보
+PRVG-11250 : 'root' 사용자 권한이 필요하므로 "RPM Package Manager 데이터베이스" 검사가 수행되지 않았습니다.
+
+
+수행된 CVU 작업:                   stage -pre crsinst
+날짜:                           2024. 7. 18 오전 10:08:45
+CVU 홈:                        /u01/app/19c/grid/
+사용자:                          oracle
